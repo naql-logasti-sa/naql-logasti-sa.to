@@ -1,0 +1,282 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>404 Not Found - InfinityFree</title>
+
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500&display=swap">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html, body {
+            margin: 0;
+            min-height: 100%;
+        }
+
+        body {
+            font-family: "Plus Jakarta Sans", Arial, sans-serif;
+            color: white;
+        }
+
+        .main {
+            position: relative;
+            min-height: 100vh;
+            min-height: 100svh;
+            overflow: hidden;
+
+            background-image: url("photos/background.jpg");
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+        }
+
+        /* الطبقة الداكنة فوق الصورة */
+        .cover {
+            position: absolute;
+            inset: 0;
+            z-index: 0;
+            background: rgba(13, 35, 49, 0.60);
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+        }
+
+        .logo {
+            margin-top: 145px;
+            margin-bottom: 42px;
+            text-align: center;
+            font-size: clamp(48px, 5.6vw, 92px);
+            font-weight: 300;
+            letter-spacing: -2px;
+            color: white;
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        .motto {
+            margin-bottom: 155px;
+            font-size: clamp(20px, 2vw, 31px);
+            font-weight: 400;
+            line-height: 1.5;
+            color: white;
+        }
+
+        .info-text {
+            margin: 0 0 22px;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 1.7;
+            color: white;
+        }
+
+        .media-list {
+            max-width: 610px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .media {
+            margin-top: 10px !important;
+            margin-bottom: 15px;
+        }
+
+        .media-left {
+            padding-right: 12px;
+        }
+
+        .media-object {
+            width: 48px;
+            font-size: 44px;
+            color: white;
+            text-align: center;
+        }
+
+        .media-body,
+        .media-body a,
+        .media-left a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .media-body a:hover {
+            opacity: 0.8;
+        }
+
+        .media-heading {
+            margin-top: 0;
+            margin-bottom: 2px;
+            font-size: 23px;
+            font-weight: 400;
+            line-height: 1.5;
+        }
+
+        .footer {
+            position: absolute;
+            z-index: 2;
+            right: 7%;
+            bottom: 28px;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.65);
+            font-size: 14px;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+            font-size: 17px;
+            font-weight: 500;
+        }
+
+        .footer .brand {
+            display: block;
+            margin-top: 6px;
+        }
+
+        @media (max-width: 767px) {
+            .main {
+                min-height: 100vh;
+                min-height: 100svh;
+                overflow: auto;
+            }
+
+            .logo {
+                margin-top: 85px;
+                margin-bottom: 28px;
+                letter-spacing: -1px;
+            }
+
+            .motto {
+                margin-bottom: 85px;
+            }
+
+            .info-text {
+                font-size: 15px;
+            }
+
+            .media-heading {
+                font-size: 18px;
+            }
+
+            .media-object {
+                font-size: 36px;
+                width: 38px;
+            }
+
+            .footer {
+                position: relative;
+                right: auto;
+                bottom: auto;
+                margin: 65px auto 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main class="main">
+
+        <div class="cover blue"></div>
+
+        <div class="container">
+            <h1 class="logo">404 Not Found</h1>
+
+            <div class="content">
+                <h4 class="motto">
+                    The page you were looking for could not be found!
+                </h4>
+
+                <div class="subscribe">
+                    <h5 class="info-text">
+                        If you just came across this page, please carry on.
+                        If you are the website owner, please check the
+                        resources below.
+                    </h5>
+
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 col-sm-12">
+
+                            <ul class="media-list">
+
+                                <li class="media">
+                                    <div class="media-left">
+                                        <a href="https://forum.infinityfree.com/docs?topic=49355"
+                                           target="_blank"
+                                           rel="noopener noreferrer">
+                                            <i class="media-object fas fa-book"></i>
+                                        </a>
+                                    </div>
+
+                                    <div class="media-body">
+                                        <a href="https://forum.infinityfree.com/docs?topic=49355"
+                                           target="_blank"
+                                           rel="noopener noreferrer">
+                                            <h4 class="media-heading">
+                                                Check the Knowledge Base article
+                                            </h4>
+                                            Find more information about what this
+                                            error means and how you might fix it.
+                                        </a>
+                                    </div>
+                                </li>
+
+                                <li class="media">
+                                    <div class="media-left">
+                                        <a href="https://forum.infinityfree.com"
+                                           target="_blank"
+                                           rel="noopener noreferrer">
+                                            <i class="media-object fas fa-comments"></i>
+                                        </a>
+                                    </div>
+
+                                    <div class="media-body">
+                                        <a href="https://forum.infinityfree.com"
+                                           target="_blank"
+                                           rel="noopener noreferrer">
+                                            <h4 class="media-heading">
+                                                Ask on the Forum
+                                            </h4>
+                                            Maybe someone on our Community Forum
+                                            can help you figure out this issue.
+                                        </a>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            Proudly powered by
+            <a href="https://www.infinityfree.com"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="brand">
+                InfinityFree
+            </a>
+        </footer>
+
+    </main>
+</body>
+</html>
